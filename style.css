@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Titillium Web", sans-serif;
+}
+
+/*section 1 */
+
+
+#pre{
+  background-color: rgb(28, 20, 62);
+  background: url(./bg-curvy-desktop.svg) no-repeat bottom/contain  rgb(28, 20, 62); ;
+}
+ul{
+  list-style: none;
+}
+a{ 
+  text-decoration: none;
+}
+h1,h2,h3 {
+  font-family: "Ga Maamli", sans-serif;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 15px;
+  color: aliceblue;
+  border-radius: 20px;
+  font-weight: 500;
+  border: none;
+  width: 220px;
+  cursor: pointer;
+  margin-top: 30px;
+  background:linear-gradient(to top,rgb(111, 111, 174),rgb(57, 57, 112))
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 2rem;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  color: aliceblue;
+  font-size: 16px;
+  padding: 10px;
+}
+nav ul li a:hover {
+  border-bottom: solid 2px rgb(210, 204, 204);
+}
+nav img ,.container >img {
+ max-width: 100%;
+}
+#pre .content {
+  padding: 2rem 0 12rem;
+  max-width: 600px;
+  margin: auto;
+text-align: center;
+}
+
+#pre .content img{
+  max-width: 32rem;
+}
+#pre .content h1 ,#trois .content h1 {
+  color: aliceblue;
+  margin: 23px 0;
+  line-height: 1.5;
+}
+#pre .content p {
+  max-width: 450px;
+  margin: auto;
+
+}
+p{
+  color: rgb(204, 207, 210);
+  line-height: 1.3;
+}
+
+/*section 2 */
+#deux {
+  margin: auto;
+  padding: 3rem 2rem;
+  background-color: rgb(26, 30, 41);
+}
+#deux .row  {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+max-width: 800px;
+margin: auto;
+text-align: center;
+gap: 3rem 7rem;
+}
+#deux .row h2 {
+  color: antiquewhite;
+  margin: 8px 0 8px;
+  
+}
+
+/*section 3 */
+
+#trois {
+  background-color: rgb(26, 30, 41);
+  padding: 4rem 2rem;
+}
+#trois .container{
+max-width: 1100px;
+margin: auto;
+padding: 0 2rem;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+column-gap: 4rem;
+
+}
+
+#trois .container .content a {
+  color: rgb(52, 163, 171);
+  padding-bottom: 3px;
+  border-bottom: solid 2px rgb(52, 163, 171);
+}
+i { 
+  margin-left: 9px;
+}
+#trois .container .content h1 {
+  font-size: 36px;
+  max-width: 80%;
+}
+#trois .container .content p { 
+  margin-bottom: 10px;
+}
+
+#trois .container .content a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+
+/*section 4 */
+#qua{
+background: url(./bg-quotes.png) no-repeat ;
+background-position: 7% 9%;
+background-color: rgb(26, 30, 41);
+
+}
+
+#qua .container  {
+  max-width: 1100px;
+  margin: auto;
+  padding: 6rem 2rem 20rem;
+}
+#qua .container .row {
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  column-gap: 3rem;
+}
+
+#qua .container .row .col {
+  background-color: rgb(30, 32, 53);
+  padding: 30px 20px;
+}
+#qua .container .row .col>p {
+  line-height: 1.2;
+  font-size: 15px;
+  margin-bottom: 20px;
+} 
+#qua .container .row .col .user {
+  display: flex;
+  align-items: center;
+}
+#qua .container .row .col .user>img {
+  max-width: 10%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#qua .container .row .col .user .info h4{
+  font-size: 16px;
+  color: #fff;
+
+}
+#qua .container .row .col .user .info p {
+  font-size: 13px;
+}
+
+
+/*section 5 */
+
+footer .container{
+max-width: 1200px;
+margin: auto;
+padding:  1rem 2rem;
+}
+
+footer {
+  background-color: rgb(37, 33, 68);
+  padding-bottom: 2rem;
+}
+
+footer .container #foo {
+  background-color: #2f2c4b;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 2rem 3rem;
+  transform: translateY(-50%);
+}
+ 
+footer .container #foo h1 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+footer .container #foo input { 
+  width: 60%;
+  padding: 11px 15px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+}
+footer .container #ter .row {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+  margin-top: 1rem;
+}
+footer .container #ter .row .col {
+  display: flex;
+  align-items: start;
+}
+footer .container #ter .row .col img {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+footer .container #ter .row ul li {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+footer .container #ter .row a{
+  color: #fff;
+  transition: all 0.3s ease;
+}
+footer .container #ter .row ul li img {
+  margin-right: 10px;
+  vertical-align: middle;
+   }
+
+ #ter .row .social i {
+  border: 1px solid  white;
+  margin-right: 5px;
+  padding: 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+#ter .row .social i:hover {
+  color: rgb(117, 166, 166);
+  border:  1px solid rgb(117, 166, 166);;
+}
+
+footer .container #ter .row a:hover{
+  color: rgb(117, 166, 166);
+}
+
+
+/*responsive */
+
+
+
+@media(max-width:780px){
+
+
+  nav{
+    height: 100px;
+    padding: 0 1rem;
+  }
+
+  nav ul li {
+    margin: 0 13px;
+  }
+  nav ul li a {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  
+#pre .content img{
+  max-width: 20rem;
+}
+#pre .content h1 ,#trois .content h1 {
+  margin: 17px 0;
+  line-height: 1.2;
+}
+#pre .content p {
+  max-width: 400px;
+  margin: auto;
+
+}
+p{
+  line-height: 1.2;
+}
+
+nav>img {
+max-width: 6rem;
+}
+#deux .row  {
+grid-template-columns: 1fr;
+row-gap: 2rem;
+  }
+  #trois .container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    }
+
+    #trois .container .content h1 {
+      font-size: 31px;
+      max-width: 100%;
+      margin-top: 15px;
+    }
+    #trois .container .content p { 
+      margin-bottom: 10px;
+    }
+    #qua .container .row {
+      grid-template-columns: 1fr;
+      gap:2rem;
+      padding: 0 2rem;
+    }
+    #qua .container .row .col .user>img {
+      max-width: 8%;
+    }
+    #qua{
+
+      background-position: 5% 5%;
+}
+footer .container #foo input { 
+  width: 80%; 
+margin-top: 15px;
+}
+  footer .container #foo .sign .btn {
+    width: 80%; 
+  }
+
+  footer .container #ter .row {
+    grid-template-columns: 1fr;
+   row-gap: 2rem;
+  }
+  
+  footer .container #ter {
+    text-align: center;
+  }
+   }
